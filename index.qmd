@@ -1,6 +1,6 @@
 ---
-title: "Quarto Academic, PhD"
-description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
+title: "Lynndsay Terpsma"
+description-meta: "*descriptive title*"
 image: "files/images/placeholder4.JPG"
 page-navigation: false
 toc: false
@@ -12,14 +12,14 @@ about:
   template: trestles
   image-width: 70%
   links:
-    - icon: sun
+    - icon: github
       text: Lab
       href: https://www.github.com
       target: _blank
-    - icon: globe
-      text: Uprofile
-      href: https://baruch.cuny.edu
-      target: _blank
+    # - icon: globe
+    #   text: Uprofile
+    #   href: https://baruch.cuny.edu
+    #   target: _blank
     - icon: envelope
       text: E-mail
       href: mailto:email@gmail.com    
@@ -27,22 +27,22 @@ about:
       text: LinkedIn
       href: https://linkedin.com
       target: _blank
-    - icon: youtube
-      text: YouTube
-      href: https://www.youtube.com     
-      target: _blank 
-    - text: "{{< ai orcid >}} ORCID"   # use academic icons, "" are needed, you also need to install the fontawesome extension
-      href: https://orcid.org
-      target: _blank
-    - text: "{{< ai clarivate >}} Web of Science"
-      href: https://www.webofscience.com  
-      target: _blank
-    - text: "{{< ai scopus >}} Scopus"
-      href: https://www.scopus.com
-      target: _blank
-    - text: "{{< ai google-scholar >}} Google Scholar"
-      href: https://scholar.google.com
-      target: _blank
+    # - icon: youtube
+    #   text: YouTube
+    #   href: https://www.youtube.com     
+    #   target: _blank 
+    # - text: "{{< ai orcid >}} ORCID"   # use academic icons, "" are needed, you also need to install the fontawesome extension
+    #   href: https://orcid.org
+    #   target: _blank
+    # - text: "{{< ai clarivate >}} Web of Science"
+    #   href: https://www.webofscience.com  
+    #   target: _blank
+    # - text: "{{< ai scopus >}} Scopus"
+    #   href: https://www.scopus.com
+    #   target: _blank
+    # - text: "{{< ai google-scholar >}} Google Scholar"
+    #   href: https://scholar.google.com
+    #   target: _blank
 #    - text: "{{< ai researchgate >}} Research Gate"
 #      href: https://www.researchgate.net
 #      target: _blank
