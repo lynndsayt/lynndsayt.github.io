@@ -9,11 +9,11 @@ page-layout: full
 about:
   id: hero-heading
   template: trestles
-  # image: "files/images/placeholder4.JPG"
-  # image-width: 70%
+  image: "files/images/profile-pic.png"
+  image-width: 70%
   links:
     - icon: github
-      text: Lab
+      text: GitHub
       href: https://www.github.com
       target: _blank
     - icon: envelope
@@ -25,6 +25,9 @@ about:
       target: _blank
     - text: "{{< ai orcid >}} ORCID"   # use academic icons, "" are needed, you also need to install the fontawesome extension
       href: https://orcid.org/0009-0008-8837-7713
+      target: _blank    
+    - text: "{{< ai researchgate >}} Research Gate"
+      href: https://www.researchgate.net/profile/Lynndsay-Terpsma?ev=hdr_xprf
       target: _blank
     # - text: "{{< ai clarivate >}} Web of Science"
     #   href: https://www.webofscience.com  
@@ -35,9 +38,6 @@ about:
     # - text: "{{< ai google-scholar >}} Google Scholar"
     #   href: https://scholar.google.com
     #   target: _blank
-     - text: "{{< ai researchgate >}} Research Gate"
-       href: https://www.researchgate.net/profile/Lynndsay-Terpsma?ev=hdr_xprf
-       target: _blank
 ---
 
 :::{#hero-heading}
@@ -46,15 +46,22 @@ Hello! My name is Lynndsay Terpsma and I am an undergraduate student at the Univ
 
 ## Experience
 
-- Researcher, Univerisity
-- Consultant, Company
-- Intern, Institute
+- **University of British Columbia Okanagan**
+    - Undergraduate Teaching Assistant *(Sept. 2024 - Present)*
+    - Undergraduate Researcher, UBCO Undergraduate Research Award *(May - Aug. 2025)*
+    - Research Assistant *(Sept. 2023 - Apr. 2024)*
+    - Peer Notetaker *(Sept. 2022 - Apr. 2023)*
+- **Bamfield Marine Sciences Centre**
+    - UBCO Student Ambassador *(Dec. 2024 - Present)*
+- **Université de Sherbrooke**
+    - Kluane Red Squirrel Project Field Technician, NSERC Undergraduate Student Research Award *(May - Aug. 2026)*
+    
 
 ## Education
 
-- Bachelor of Science, University of British Columbia Okanagan\n
-&nbsp;&nbsp;&nbsp;&nbsp; Honours Zoology [Expected: April 2027]\n
-&nbsp;&nbsp;&nbsp;&nbsp; Thesis Title: *A Computational Approach to Identifying Evolutionarily Stable Strategies in Mammalian Search Behaviour* \n
-&nbsp;&nbsp;&nbsp;&nbsp; Supervisor: Dr. Micheal Noonan, Quantitative Ecology Lab
+- **BSc. Honours Zoology, University of British Columbia Okanagan** \
+    - Supervisor: Dr. Michael Noonan, Quantitative Ecology Lab \
+    - Thesis: *A Computational Approach to Identifying Evolutionarily Stable Strategies in Mammalian Search Behaviour* 
+- **Graduate Academic Certificate, Science Communication, McMaster University** \
 :::
 

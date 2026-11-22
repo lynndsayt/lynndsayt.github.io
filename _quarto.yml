@@ -15,44 +15,17 @@ website:
   # image: "https://quarto.org/quarto.png"
   description: "Personal website of Lynndsay Terpsma"
  
-  # navbar:
+  navbar:
   #   background: light  # You can change the background color here
 
     left:   # You can comment out all navigation items here if you just like to keep the index page only
      - text: Home
        href: index.qmd
      - text: Projects
-        menu:
-          - text: Fiddling with Data
-            href: https://lynndsayt.ca/fiddlilng-with-data
-     # - text: About
-     #   href: about.qmd
-      #   menu:
-      #     # - text: News
-      #     #   href: posts.qmd#category=news
-      #     # - text: Events
-      #     #   href: posts.qmd#category=event      
-      #     - text: Contact
-      #       href: contact.qmd             
-      # - text: Research
-      #   menu:
-      #     # - text: Publications Listing  # Automatically generated from publications.xlsx
-      #     #   href: pub-listing.qmd
-      #     - text: Publications  # Manually curated list of publications
-      #       href: publications.qmd            
-      #     - text: Selected Papers
-      #       href: posts.qmd#category=paper
-      #     - text: Grants
-      #       href: projects.qmd                                
-      # # - text: Teaching # Comment the Teaching part out to remove the Teaching page
-      # #   href: teaching.qmd
-      # - text: Outreach
-      #   menu:        
-      #   - text: Presentations
-      #     href: posts.qmd#category=presentation                   
-      # # - text: Group   # Comment the Group part out to remove the Group page
-      # #   href: people.qmd
-
+       menu:
+        - text: Fiddling with Data
+          href: https://lynndsayt.ca/fiddling-with-data
+  
     right: 
       - text: CV
         href: files/CV.pdf
@@ -62,21 +35,13 @@ website:
       - icon: linkedin
         href: https://www.linkedin.com/in/lynndsay-terpsma/
         target: _blank
-      # - text: "{{< fa brands bluesky >}}"
-      #   href: https://bsky.app
-      #   target: _blank      
-      # - icon: rss
-      #   href: posts.xml
-      #   target: _blank
-  
-  # page-navigation: true
   
   page-footer: 
     left: "&copy; Lynndsay Terpsma" 
     # center: "Built using [Quarto Academic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io)"
     right:  
       - icon: github
-        href: https://github.com/lynndsayt
+        href: https://github.com/lynndsayt/lynndsayt.github.io
   
   # search:
   #   location: navbar
